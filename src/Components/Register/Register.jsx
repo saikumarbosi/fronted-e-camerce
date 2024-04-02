@@ -16,7 +16,7 @@ const Register = () => {
         e.preventDefault()
         setLoading(true)
         try{
-            const response = await fetch("http://localhost:5000/register", {
+            const response = await fetch("https://backend-e-camerce.onrender.com/register", {
             method: "POST",
             headers: {
                 "Content-Type": "Application/json"

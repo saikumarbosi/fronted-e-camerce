@@ -26,7 +26,7 @@ const Login = () => {
         e.preventDefault()
         setLoading(true)
         try{
-            const response = await fetch("http://localhost:5000/login", {
+            const response = await fetch("https://backend-e-camerce.onrender.com/login", {
             method: "POST",
             headers: {
                 "Content-Type": "Application/json"

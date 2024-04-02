@@ -15,7 +15,7 @@ const Mens = () => {
   const handleData = async () => {
     setLoading(true)
     try {
-      const response = await fetch("http://localhost:5000/mens")
+      const response = await fetch("https://backend-e-camerce.onrender.com/mens")
       const res = await response.json()
       setData(res)
     }
