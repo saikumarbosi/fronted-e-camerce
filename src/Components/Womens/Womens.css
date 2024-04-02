@@ -1,0 +1,84 @@
+.bg-home{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+.bg-carousel{
+    width: 100%;
+}
+
+.bg-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    height: 300px;
+    width: 100%;
+}
+.card{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+}
+.img{
+    height: 120px;
+    width: 120px;
+    margin-left: 10px;
+}
+.para{
+    font-size: 10px;
+}
+.price{
+    font-size: 10px;
+}
+
+.container{
+    background-color: rgba(0 ,0 ,0 ,0.8);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid tomato;
+}
+.model{
+    background-color: white;
+    position: relative;
+    width: 30%;
+    height: 40%;
+    border-radius: 10px;
+    overflow: hidden; 
+    padding: 10px;
+}
+.model button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.button{
+   background-color: blue;
+   color: white;
+   border: 0px solid;
+   font-size: 8px;
+   border-radius: 2px;
+}
+.btn{
+    background-color: blue;
+   color: white;
+   border: 0px solid;
+   font-size: 12px;
+   border-radius: 2px;
+   padding: 5px;
+   
+}
+.footer{
+    width: 100%;
+}

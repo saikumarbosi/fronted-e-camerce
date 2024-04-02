@@ -1,0 +1,29 @@
+.bg-home{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.bg-img{
+    width: 100%;
+}
+    
+.image{
+    height: 30vh;
+    width: 100vw;
+}
+.img{
+    height: 100px;
+    width: 100px;
+}
+.img-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.img-card{
+    border: 1px solid bisque;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
